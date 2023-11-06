@@ -39,6 +39,18 @@ h1{
 .famil{
     font-style:italic ;
 }
+h2{
+    text-align: center;
+}
+.table{
+    background: green;
+    font-weight: 700;
+}
+.right{
+    display: flex;
+justify-content: end;
+}
+
     </style>
 </head>
 <body>
@@ -49,39 +61,39 @@ h1{
     <table>
         <tbody>
             <tr >
-                <td><h3>Прізвище</h3></td>
-                <td><h3>ім'я</h3></td>
-                <td><h3>Дата народження</h3></td>
-                <td><h3>Адрес проживання</h3></td>
-                <td><h3>Контактний телефон</h3></td>
+                <td class="table"><h3>Прізвище</h3></td>
+                <td class="table"><h3>ім'я</h3></td>
+                <td class="table"><h3>Дата народження</h3></td>
+                <td class="table"><h3>Адреса проживання</h3></td>
+                <td class="table"><h3 class="right">Контактний телефон</h3></td>
             </tr>
             <tr class="gr">
                 <td>Залуйко</td>
                 <td>Семен</td>
                 <td> 14.05.1997</td>
                 <td>м.Озу вул. штольня 77</td>
-                <td>+380973456000</td>
+                <td class="right">+380973456000</td>
             </tr>
             <tr class="wh">
                 <td>Конотопців</td>
                 <td>Едуард</td>
                 <td>16.03.2003 </td>
                 <td>м.Київ вул.Незалежна 1</td>
-                <td>+380971212923</td>
+                <td class="right">+380971212923</td>
             </tr>
             <tr class="gr">
                 <td>Скрипник </td>
                 <td>Аліна</td>
                 <td>01.01.2003</td>
                 <td>м.Львів вул. Гоголя 13</td>
-                <td>+380971295959</td>
+                <td class="right">+380971295959</td>
             </tr>
             <tr class="wh">
                 <td>Творожків</td>
                 <td>Владислав</td>
                 <td>11.09.2001</td>
                 <td>м.Харків вул. Білика 2</td>
-                <td>+380971790431</td>
+                <td class="right">+380971790431</td>
             </tr>
         </tbody>
     </table>
