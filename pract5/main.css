@@ -1,6 +1,9 @@
 .row{
     width: 100%;
 }
+p{
+    color: white;
+}
 .main{
     width: 100%;
     font-size:50px;
@@ -9,29 +12,33 @@
 }
 .caption1, .caption2, .caption3{
     float: right;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
     display: block;
     width: 120px;
     text-align: center;
 }
 .caption1{
-    background-color: purple;
+    background-color: rgb(10, 255, 251);
     color: black;
 }
 .caption2{
-    background-color: red;
+    background-color: rgb(66, 255, 119);
     color:  black; 
 }
 .caption3{
-    background-color: yellow;
+    background-color: rgb(238, 121, 246);
     color:  black;
 }
 .block{
-    background-color: lightpink;
+    background-color: rgba(18, 1, 74, 0.491);
     margin-left:10px;
     margin-right:10px;
     margin-bottom:20px;
     border: 2px solid black;
+    
+    
+
     
 } 
 .block p{
