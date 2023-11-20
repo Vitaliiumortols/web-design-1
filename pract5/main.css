@@ -17,6 +17,7 @@ p{
     display: block;
     width: 120px;
     text-align: center;
+    font-size: 28px;
 }
 .caption1{
     background-color: rgb(10, 255, 251);
@@ -37,8 +38,6 @@ p{
     margin-bottom:20px;
     border: 2px solid black;
     
-    
-
     
 } 
 .block p{
@@ -136,7 +135,7 @@ p{
       .col-mn-9, .col-mn-10, .col-mn-11, .col-mn-12 {
       float: left;
       
-      padding: 5px;
+      
       }
       .col-mn-1 {
       width: 8.33%;
