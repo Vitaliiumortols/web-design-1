@@ -111,7 +111,7 @@
       }
      }
      
-     /*medium */
+ 
      @media (min-width: 768px) and (max-width: 992px){
       
       .col-md-1 {
@@ -152,7 +152,7 @@
       }
      }
      
-     /*small*/
+     
      @media (max-width: 768px){
       .col-mn-1 {
        flex-basis: 8.33%;
