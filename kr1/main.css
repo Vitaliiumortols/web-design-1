@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+}
+.block_1_1{
+    display: flex;
+    background-color: rgb(36, 36, 90);
+    width: 440px;
+    height: 440px;
+}
+
+.block_1_2{
+    display: flex;
+    background-color: rgb(104, 25, 25);
+    
+    width: 440px;
+    height: 440px;
+}
+
+.block_1_3{
+    display: flex;
+    background-color: rgb(143, 105, 2);
+    
+    width: 440px;
+    height: 440px;
+}
+
+.block_1_4{
+    display: flex;
+    background-color: rgb(20, 75, 3);
+
+    width: 440px;
+    height: 440px;
+}
+
+
+
+
+
+
+.block_1{
+   
+display: flex;
+justify-content:end;
+align-items: end;
+
+
+}
+
+.block_2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+ 
+}
+
+.block_3{
+
+    display: flex;
+justify-content: end;
+align-items: end;
+}
+
+.block_4{
+    display: flex;
+justify-content: end;
+align-items: end;
+    
+}
+
+.Mini_block_1{
+     height: 40px;
+    width: 70px;
+    background-color: rgb(5, 113, 255) ;
+    color: aliceblue;
+   
+}
+
+.Mini_block_2{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(255, 66, 66);
+    color: aliceblue;
+   
+}
+
+.Mini_block_3{
+    height:40px;
+    width: 100px;
+    background-color: rgb(238, 255, 0);
+    color: rgb(0, 0, 0);
+    
+}
+
+.Mini_block_4{
+    height: 40px; 
+    width: 140px;     
+    background-color: palevioletred;
+    
+}
+
+h4{
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Text_of_mini_block_1{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+    
+}
+.Text_of_mini_block_2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+    
+}
+.Text_of_mini_block_3{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+    
+}
+.Text_of_mini_block_4{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    height: 440px;
+    width: 440px;
+}
+
+.flex_main{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+table{
+    border: black solid 1px;
+}
+
+th{
+    border: black solid 1px;  
+}
+
+h1{font-family: 'Dela Gothic One', sans-serif;}
+
+h2{font-family: 'Dela Gothic One', sans-serif;}
+
+h3{font-family: 'Dela Gothic One', sans-serif;}
